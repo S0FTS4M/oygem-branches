@@ -10,6 +10,10 @@ public class CharacterController : MonoBehaviour
         
     }
 
+    private void Awake() {
+        Debug.Log("Hello Oygem family");
+    }
+
     // Update is called once per frame
     void Update()
     {
